@@ -1,0 +1,9 @@
+These are my personal vimfiles.
+
+Installation instructions (Linux):
+- git clone https://github.com/marcospcury/vimfiles.git ~/.vim
+- echo "source ~/.vim/.vimrc" > ~/.vimrc
+- cd ~/.vim
+- git submodule update --init
+
+This is based on Giovanni Bassi 's vimfiles. Check out https://github.com/giggio/vimfiles.
