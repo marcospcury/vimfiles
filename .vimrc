@@ -27,7 +27,7 @@ execute pathogen#infect()
 set ls=2                        " always show status bar
 set number                      " show line numbers
 set cursorline                  " display a marker on current line
-colorscheme railscasts          " set colorscheme
+colorscheme molokayo          " set colorscheme
 
 set completeopt=menuone,longest,preview " simple autocomplete for anything
 set wildmode=list:longest,full  " autocomplete for paths and files
@@ -58,6 +58,7 @@ set nobackup
 set nowritebackup
 
 map <F2> :NERDTreeToggle<CR>
+map <F3> :noh<CR>
 map <Leader>b :BufOnly<CR>
 map zz :w<CR>
 
